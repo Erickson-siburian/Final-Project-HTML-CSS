@@ -1,20 +1,56 @@
 main {
-  position: relative;
-  top: 500px;
-  width: 800px;
+  margin: 900px auto;
+  width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  row-gap: 80px;
 }
 
 main section {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 800px;
 }
 
 section img {
-  width: 200px;
+  width: 335px;
+}
+
+section h4 {
+  color: #0f8b8d;
+  border-bottom: #ec9a29 solid 5px;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+section p {
+  color: #143642;
+  font-size: 24px;
+  width: 400px;
+}
+section button {
+  position: absolute;
+  background-color: #a8201a;
+  color: white;
+  width: 335px;
+  height: 70px;
+  border-radius: 55px;
+  padding: 20px;
+  border: 0;
+}
+
+section.who {
+  flex-direction: row;
+}
+
+section.product-showcase {
+  flex-direction: row-reverse;
+}
+
+section.hang-out {
+  flex-direction: row;
 }
