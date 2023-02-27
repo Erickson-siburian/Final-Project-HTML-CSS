@@ -1,0 +1,37 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/coffee-header.jpeg);
+  padding-top: 70px;
+}
+
+header h1,
+header h2 {
+  font-size: 70px;
+  color: #f9fbfe;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  position: absolute;
+  z-index: 11;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 100vh;
+  width: 100%;
+  padding-top: 70px;
+  background-color: rgba(20, 54, 66, 0.7);
+}

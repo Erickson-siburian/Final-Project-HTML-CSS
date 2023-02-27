@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #0f8b8d;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  color: #f9fbfe;
+  list-style: none;
+  font-size: 30px;
+  font-family: Lato;
+  text-decoration: none;
+  width: 400px;
+  column-gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #f9fbfe;
+}
