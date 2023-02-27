@@ -25,13 +25,18 @@ section h4 {
   border-bottom: #ec9a29 solid 5px;
   font-weight: bold;
   font-size: 48px;
+  line height: 15px;
 }
 
 section p {
   color: #143642;
   font-size: 24px;
+  font-weight: 400;
   width: 400px;
+  line-height: 29px;
+  margin-top: 20px;
 }
+
 section button {
   position: absolute;
   background-color: #a8201a;
@@ -40,7 +45,8 @@ section button {
   height: 70px;
   border-radius: 55px;
   padding: 20px;
-  border: 0;
+  border: none;
+  margin-top: 30px;
 }
 
 section.who {
@@ -53,4 +59,25 @@ section.product-showcase {
 
 section.hang-out {
   flex-direction: row;
+}
+
+section.gallery h4 {
+    font-size: 48px;
+    color: #0F8B8D;
+    text-decoration: none;
+    line-height: 57.6px;
+}
+
+section h4 span {
+    font-size: 48px;
+    color: #EC9A29;
+    border-bottom: #ec9a29 light 1px;
+    line-height: 57.6px;
+}
+
+section.gallery img {
+    width: 237px;
+    height: 237px;
+    padding: 20px;
+    margin: 30px;
 }
