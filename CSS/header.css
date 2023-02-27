@@ -21,7 +21,7 @@ header h2 {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
-  position: absolute;
+  position: static;
   z-index: 11;
 }
 
