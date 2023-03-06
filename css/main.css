@@ -47,6 +47,9 @@ section button {
   padding: 20px;
   border: none;
   margin-top: 30px;
+  font-size: 24px;
+  font-family: lato;
+  font-weight: 400;
 }
 
 section.who {
@@ -95,6 +98,41 @@ section.gallery div.gallery-instagram img {
   width: 200px;
 }
 
+.ask-us h5 {
+  color: #0F8B8D;
+  font-size: 48px;
+  font-family: lato;
+  font-weight: 800;
+  text-align: center;
+  align-items: center;
+}
+
+.ask-us p {
+  color: #143642;
+  font-size: 24px;
+  font-family: lato;
+  font-weight: 400;
+  width: 877px;
+  padding-top: 20px;
+}
+
+.ask-us button {
+  position: absolute;
+  background-color: #a8201a;
+  color: white;
+  width: 335px;
+  height: 70px;
+  border-radius: 55px;
+  padding: 20px;
+  border: none;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  font-size: 24px;
+  font-family: lato;
+  font-weight: 400;
+}
+
 footer {
   display: flex;
   flex-direction: row;
@@ -104,10 +142,17 @@ footer {
   width: 100%;
   color: white;
   padding: 30px;
+  height: 460px;
 }
 
 .footer-links li {
   list-style: none;
+  font-size: 24px;
+  color: #F9FBFE;
+  font-family: lato;
+  font-weight: 400;
+  line-height: 29px;
+  padding: 10px;
 }
 
 .footer-links li a {
@@ -118,10 +163,13 @@ color: white;
 .footer-links {
   display: flex;
   flex-direction: row;
-  column-gap: 20px;
+  column-gap: 50px;
+  font-family: lato;
+  font-weight: 700;
+  line-height: 29px;
 }
 
 footer h5 {
-  color: orange;
+  color: #EC9A29;
   font-size: 20px;
 }
