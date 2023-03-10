@@ -1,12 +1,18 @@
 header {
-  position: absolute;
+  /* position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
-  height: 100vh;
+  z-index: 1; */
+  height: 700px;
   width: 100%;
   background-image: url(../img/coffee-header.jpeg);
+  background-size: cover;
   padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 header h1,
@@ -21,8 +27,13 @@ header h2 {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
-  position: static;
-  z-index: 11;
+  height: 700px;
+  /* position: static;
+  z-index: 11; */
+}
+.header-content p {
+  font-size: 36px;
+  color: white;
 }
 
 .overlay {

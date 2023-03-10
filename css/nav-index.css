@@ -8,12 +8,13 @@
 
 nav {
   display: flex;
-  justify-content: space-between;
-  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 400px;
   z-index: 10;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 10%;
 }
 
 .menu {

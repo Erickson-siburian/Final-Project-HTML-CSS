@@ -1,5 +1,5 @@
 main {
-  margin: 900px auto;
+  margin: 50px auto;
   width: 700px;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@ section p {
   margin-top: 20px;
 }
 
-section button {
+section .button {
   position: absolute;
   background-color: #a8201a;
   color: white;
@@ -98,6 +98,13 @@ section.gallery div.gallery-instagram img {
   width: 200px;
 }
 
+.ask-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .ask-us h5 {
   color: #0F8B8D;
   font-size: 48px;
@@ -117,7 +124,6 @@ section.gallery div.gallery-instagram img {
 }
 
 .ask-us button {
-  position: absolute;
   background-color: #a8201a;
   color: white;
   width: 335px;
@@ -153,6 +159,7 @@ footer {
   font-weight: 400;
   line-height: 29px;
   padding: 10px;
+  padding-left: 0;
 }
 
 .footer-links li a {
